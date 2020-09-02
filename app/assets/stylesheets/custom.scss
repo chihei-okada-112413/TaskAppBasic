@@ -29,6 +29,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
+h3 {
+  font-size: 4.5em;
+  letter-spacing: -2px;
+  margin-top: 68px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-style:italic;
+  font-weight:bold;
+}
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
@@ -37,37 +46,52 @@ h1 {
 }
 
 h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
+  font-size: 3em;
+  letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  font-weight: normal;
-  color: #777;
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.5em;
   line-height: 1.7em;
+  text-align: center;
+  margin-bottom:15px;
 }
 
 /* ヘッダー */
+
+#header {
+  background-color: teal;
+}
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  font-style:italic;
 }
 
 #logo:hover {
-  color: #fff;
+  color: lightgray;
   text-decoration: none;
 }
 
+li .header-list {
+  color:#fff !important;
+  font-weight:bold;
+  &:hover{
+    color:lightgray!important;
+  }
+}
+#dropdown-title{
+  background-color:teal;
+}
 /* デバッグウインドウ */
 
 .debug_dump {

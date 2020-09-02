@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  task_name: MyString
+  detail: MyString
+  created_at: 2020-09-01 15:35:51
+  update_at: 2020-09-01 15:35:51
+
+two:
+  task_name: MyString
+  detail: MyString
+  created_at: 2020-09-01 15:35:51
+  update_at: 2020-09-01 15:35:51
