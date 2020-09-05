@@ -1,0 +1,21 @@
+<h1>ゲスト管理者のタスク一覧</h1>
+<a class="btn btn-lg btn-primary pull-right" href="#">タスク新規作成</a>
+<table class="table table-hover" id="talbe-tasks">
+  <thead>
+    <tr>
+      <th>名称</th>
+      <th>作成日</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @tasks.each do |task| %>
+    <tr>
+      <td><%= task.task_name %></td>
+      <td><%= l(task.created_at, format: :long) %></td>
+      <td><a class="btn btn-success">編集</a>
+      <a class="btn btn-danger">削除</a></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
