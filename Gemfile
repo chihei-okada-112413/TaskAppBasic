@@ -12,6 +12,10 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks',   '~> 5'
 gem 'jbuilder',     '~> 2.5'
+gem 'active_decorator'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+gem 'rails_autolink'
 
 group :development, :test do
   gem 'sqlite3'
